@@ -1,4 +1,4 @@
-/* Basic Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -42,7 +42,7 @@ body {
   padding: 0 20px;
 }
 
-/* Header & Navigation */
+
 header {
   background-color: #2c3e50;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
@@ -121,7 +121,7 @@ nav {
   width: 100%;
 }
 
-/* Hero Section */
+
 .hero {
   height: 100vh;
   display: flex;
@@ -191,7 +191,7 @@ nav {
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-/* About Section */
+
 .about {
   padding: 100px 0;
   background-color: white;
@@ -390,7 +390,7 @@ textarea {
   margin-right: 10px;
 }
 
-/* Footer */
+
 footer {
   background-color: #2c3e50;
   color: white;
@@ -398,7 +398,7 @@ footer {
   padding: 30px 0;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .hero-content {
     flex-direction: column;
@@ -442,7 +442,7 @@ footer {
   --btn-hover: #2563eb;
 }
 
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -462,7 +462,7 @@ body {
   margin: auto;
 }
 
-/* Header */
+
 header {
   background-color: var(--accent);
   padding: 10px 0;
@@ -506,7 +506,7 @@ nav {
   transition: color 0.3s;
 }
 
-/* Hero Section */
+
 .hero {
   padding: 120px 0 60px;
   background: linear-gradient(135deg, #e0f2fe, #bae6fd);
@@ -557,7 +557,7 @@ nav {
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-/* Button */
+
 .btn {
   display: inline-block;
   background-color: var(--btn-color);
@@ -573,7 +573,6 @@ nav {
   background-color: var(--btn-hover);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .hero-content {
     flex-direction: column;
